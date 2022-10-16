@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+    url("https://images.unsplash.com/photo-1455763916899-e8b50eca9967?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhbXBncm91bmRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
+.nav-link {
+    margin-left: 2rem;
+    color: rgba(255,255,255,0.5);
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+   color: white;
+   border-bottom: 2px solid white;
+}
+
+.nav-link:first-child {
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link:last-child {
+    margin-right: 2rem;
+}
+
+main {
+    margin-top: 8rem;
+}
+
+.btn {
+    font-weight: bold;
+    color: #333;
+    background-color: white;
+}
